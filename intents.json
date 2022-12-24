@@ -1,0 +1,98 @@
+{"intents": [
+        {"tag": "missing",
+        "patterns": [""],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+        },
+        {"tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+        },
+        {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+        },
+        {"tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+        "context": [""]
+        },
+        {"tag": "overview",
+        "patterns": ["overview about VKU", "introduce about VKU", "advertisement VKU"],
+        "responses": ["Vietnam - Korea University of Information and Communication Technology (VKU) is a member university of the University of Danang - a national key regional university, providing multi-field, multi-level and multi-disciplinary training programs in the Central - Central Highlands with more than 2,000 employees and over 50,000 undergraduate and graduate students.", "VKU defines its mission and responsibility in training and supplying high-quality human resources, researching, transferring knowledge and technology with the vision of becoming a leading application-oriented university in Vietnam together with the aspiration to reach the international level in training and research; operates following  an advanced governance model of a modern and smart university."],
+        "context": [""]
+        },
+        {"tag": "lecturer",
+         "patterns": ["lecturers of VKU", "Professor doctor master of VKU", "Official staff", "Official lecturer" ],
+         "responses": ["The staff meet the quantity and quality to implement the training programs of the University. Currently, the number of officers and employees is 250 (expected to 400 people), of which there are 139 lecturers (including 02 Associate Professors and 42 PhDs; 100% of the lecturers have masters degrees, 19 PhD students) were trained from countries with advanced education in the world such as: USA, France, Japan, UK, Korea, New Zealand, Australia, etc."],
+         "context": [""]
+        },
+        {"tag": "facility",
+         "patterns": ["facility", "facilities and equipment", "Classrooms practice rooms libraries dormitories", "school map" ],
+         "responses": ["Spacious facilities, including: 106 classrooms with an area of 11,314 m2 equipped with teaching aids; 53 labs on 9,120 m2 with 1,877 computers.\nlibrary with an area of 2,750 m2 can accommodate more than 1,500 students with more than 55,000 books;\nStudent Center building has an area of 19,340 m2\nDormitory with 6 buildings with 547 rooms of 40,203 m2 to accommodate nearly 5,000 students."],
+         "context": [""]
+        },
+		{"tag": "website",
+         "patterns": ["website", "homepage" ],
+         "responses": ["Website: vku.udn.vn, admissions website: tuyensinh.vku.udn.vn"],
+         "context": [""]
+        },
+        {"tag": "faculty",
+         "patterns": ["Faculties of VKU in this year", "Admissions department of VKU in this year", "Admission information of VKU in this year", "Admissions criteria of VKU in this year"],
+         "responses": ["In 2022, VKU expects to enroll 1500 students with 4 different faculties including:\nComputer Science\nElectronics and Computer Engineering\nDigital Economics & E-commerce.\nWhich do you want to look up?"],
+         "context": ["search_faculty_by_name_1","search_faculty_by_name_2", "search_faculty_by_name_3"]
+        },
+        {"tag": "search_faculty_by_name_1",
+         "patterns": ["Computer Science"],
+         "responses": ["Admission subject combinations based on high school exam scores: A00, A01, D01, D90; based on school profile: A00, A01, D01, D07\nMajors:\n\nInformation Technology:\nAdmissions criteria: 300\nLevel: engineer\nStudy time: 4,5 years\n\nInformation Technology:\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nInformation Technology(business cooperation):\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nData Science and Artificial Intelligence:\nAdmissions criteria: 60\nLevel: engineer\nStudy time: 4,5 years\n\nDigital Art Design:\nAdmissions criteria: 60\nLevel: engineer\nStudy time: 4,5 years"],
+         "context": [""]
+        },
+        {"tag": "search_faculty_by_name_2",
+         "patterns": ["Electronics and Computer Engineering"],
+         "responses": ["Admission subject combinations based on high school exam scores: A00, A01, D01, D90; based on school profile: A00, A01, D01, D07\nMajors:\n\nComputer Engineering:\nAdmissions criteria: 60\nLevel: engineer\nStudy time: 4,5 years\n\nComputer Engineering:\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nNetwork and Information Security:\nAdmissions criteria: 60\nLevel: engineer\nStudy time: 4,5 years"],
+         "context": [""]
+        },
+        {"tag": "search_faculty_by_name_3",
+         "patterns": ["Digital Economics & E-commerce"],
+         "responses": ["Admission subject combinations based on high school exam scores: A00, A01, D01, D90; based on school profile: A00, A01, D01, D07\nMajors:\n\nBusiness Administration:\nAdmissions criteria: 140\nLevel: bachelor\nStudy time: 4 years\n\nBA Specialization: Logistics Management and Digital Supply Chain Management:\nAdmissions criteria: 140\nLevel: bachelor\nStudy time: 4 years\n\nBA Specialization: Digital travel and tourism service management:\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nBA Specialization: IT Project Management :\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nBA Specialization: Digital Financial Management :\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years\n\nDigital Marketing:\nAdmissions criteria: 60\nLevel: bachelor\nStudy time: 4 years"],
+         "context": [""]
+        },
+        {"tag": "admission_method",
+         "patterns": ["Admission method", "Selection method", "consideration"],
+         "responses": ["High school examination score\nSchool profile\nAbility assessment of National University of Ho Chi Minh City\nPrivate admission"],
+         "context": [""]
+        },
+        {"tag": "support_policy",
+         "patterns": ["Supporting policies", "Supporting policy"],
+         "responses": ["Successful candidates with a matriculation score of 25.00 points or more, candidates who are admitted by the method of considering the results of the competency assessment exam of Vietnam National University Ho Chi Minh City with a passing score of 1,000 or more. up (scale of 1,200) will be considered for financial support equivalent to 50% of the tuition fee of the first 2 semesters of the course.\n\nCandidates who pass 25 points or more and have a letter of recommendation from the principal of the high school students are studying (each Principal can only refer 01 student) will be considered for financial support equivalent to 100% of the tuition fees of 2 courses. first term of the course."],
+         "context": [""]
+        },
+        {"tag": "scholarship",
+         "patterns": ["Level of scholarships and support for candidates with high achievements in the entrance exam", "scholarship"],
+         "responses": ["Valedictorian Scholarship: 35.000.000VND\nSalutatorian 1st Scholarship: 25.000.000VND\nSalutatorian 2nd Scholarship: 20.000.000VND\nScholarship for 10 students with the best achievements: 10.000.000VND/slot"],
+         "context": [""]
+        },
+        {"tag": "score",
+         "patterns": ["score", "Admission score"],
+         "responses": ["What year do you want to find the Admission Score?"],
+         "context": ["admission_score_search_2020 admission_score_search_2021"]
+        },
+        {"tag": "admission_score_search_2020",
+         "patterns": ["Admission Score 2020"],
+         "responses": ["Business administration: 18.25\nInformation Technology: 18.05\nComputer Engineering Technology: 18.05"],
+         "context": [""]
+        },
+        {"tag": "admission_score_search_2021",
+         "patterns": ["Admission Score 2021"],
+         "responses": ["dang tim diem thi 2021..."],
+         "context": [""]
+        }
+    ]
+}
